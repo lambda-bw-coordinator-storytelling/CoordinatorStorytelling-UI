@@ -138,14 +138,47 @@ table {
 }
 .home nav a {
   text-decoration: none;
-  color: white;
+  color: #f6f7f7;
   font-size: 2rem;
-  padding: 5%;
+  margin: 0 13%;
 }
-.home .img {
+.home .header {
   background: url('../css/img/mantas-hesthaven-_g1WdcKcV3w-unsplash.jpg') no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .header .cta {
+  display: flex;
+  flex-direction: column;
+}
+.home .header .cta h1 {
+  padding-top: 40%;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 5rem;
+}
+.home .header .cta button {
+  margin: 0 auto;
+  padding: 2% 5%;
+  border: 1px transparent solid;
+  border-radius: 8px;
+  background: rgba(246, 247, 247, 0 0.85);
+}
+.home .header .cta button:hover {
+  background: transparent;
+  color: #F5F7F7;
+  border: 1px #F5F7F7 solid;
+  border-radius: 8px;
+}
+.home .header .cta button:focus {
+  outline: none;
+}
+.home h1 {
+  text-align: center;
+  font-size: 3rem;
 }
 .about {
   color: red;
