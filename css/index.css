@@ -126,6 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.home nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+.home nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding: 5%;
+}
+.home .img {
+  background: url('../css/img/mantas-hesthaven-_g1WdcKcV3w-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
 .about {
   color: red;
 }
