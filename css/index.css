@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.home * {
+  font-family: 'Rosario';
+}
 .home nav {
   height: 100%;
   display: flex;
@@ -138,14 +141,18 @@ table {
 }
 .home nav a {
   text-decoration: none;
-  color: #f6f7f7;
+  color: #F5F7F7;
   font-size: 2rem;
   margin: 0 13%;
+  transition: 1s;
+}
+.home nav a:hover {
+  font-size: 2.2rem;
 }
 .home .header {
   background: url('../css/img/mantas-hesthaven-_g1WdcKcV3w-unsplash.jpg') no-repeat center center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,12 +172,13 @@ table {
   padding: 2% 5%;
   border: 1px transparent solid;
   border-radius: 8px;
-  background: rgba(246, 247, 247, 0 0.85);
+  transition: 1s;
+  background: #2A9BF0;
 }
 .home .header .cta button:hover {
   background: transparent;
-  color: #F5F7F7;
-  border: 1px #F5F7F7 solid;
+  color: #2A9BF0;
+  border: 1px #2A9BF0 solid;
   border-radius: 8px;
 }
 .home .header .cta button:focus {
@@ -179,6 +187,45 @@ table {
 .home h1 {
   text-align: center;
   font-size: 3rem;
+  padding-top: 5%;
+}
+.home .content {
+  display: flex;
+  font-size: 1.4rem;
+}
+.home .content .sub-content {
+  width: 50%;
+  margin: 3% 15%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.home .content .sub-content h2 {
+  font-weight: bold;
+}
+.home .content .sub-content p {
+  padding: 3% 5%;
+}
+.home .content .sub-content button {
+  margin: 0 auto;
+  padding: 2% 5%;
+  border: 1px transparent solid;
+  transition: 1s;
+  border-radius: 8px;
+  color: #F5F7F7;
+  background: #2A9BF0;
+}
+.home .content .sub-content button:hover {
+  background: transparent;
+  color: #2A9BF0;
+  border: 1px #2A9BF0 solid;
+  border-radius: 8px;
+}
+.home .content .sub-content button:focus {
+  outline: none;
 }
 .about {
   color: red;
