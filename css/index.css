@@ -188,21 +188,23 @@ table {
     font-size: 3rem;
   }
 }
-.home .header .cta button {
+.home .header .cta .button {
   margin: 0 auto;
   padding: 2% 5%;
   border: 1px transparent solid;
   border-radius: 8px;
   transition: 1s;
   background: #2A9BF0;
+  text-decoration: none;
+  color: black;
 }
-.home .header .cta button:hover {
+.home .header .cta .button:hover {
   background: transparent;
   color: #2A9BF0;
   border: 1px #2A9BF0 solid;
   border-radius: 8px;
 }
-.home .header .cta button:focus {
+.home .header .cta .button:focus {
   outline: none;
 }
 @media (max-width: 500px) {
@@ -240,7 +242,7 @@ table {
     font-size: 1.2rem;
   }
 }
-.home .top-content .top-content-text button {
+.home .top-content .top-content-text .button {
   margin: 0 auto;
   padding: 1% 2%;
   border: 1px transparent solid;
@@ -248,14 +250,15 @@ table {
   border-radius: 8px;
   color: #F5F7F7;
   background: #E26512;
+  text-decoration: none;
 }
-.home .top-content .top-content-text button:hover {
+.home .top-content .top-content-text .button:hover {
   background: transparent;
   color: #E26512;
   border: 1px #E26512 solid;
   border-radius: 8px;
 }
-.home .top-content .top-content-text button:focus {
+.home .top-content .top-content-text .button:focus {
   outline: none;
 }
 @media (max-width: 500px) {
@@ -296,7 +299,7 @@ table {
 .home .bottom-content .bottom-sub-content p {
   padding: 3% 5%;
 }
-.home .bottom-content .bottom-sub-content button {
+.home .bottom-content .bottom-sub-content .button {
   margin: 0 auto;
   padding: 2% 5%;
   border: 1px transparent solid;
@@ -304,14 +307,15 @@ table {
   border-radius: 8px;
   color: #F5F7F7;
   background: #2A9BF0;
+  text-decoration: none;
 }
-.home .bottom-content .bottom-sub-content button:hover {
+.home .bottom-content .bottom-sub-content .button:hover {
   background: transparent;
   color: #2A9BF0;
   border: 1px #2A9BF0 solid;
   border-radius: 8px;
 }
-.home .bottom-content .bottom-sub-content button:focus {
+.home .bottom-content .bottom-sub-content .button:focus {
   outline: none;
 }
 @media (max-width: 500px) {
