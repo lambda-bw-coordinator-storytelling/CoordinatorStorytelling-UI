@@ -1,3 +1,82 @@
 .about {
-        color: red;
+        
+        * {
+                font-family: 'Rosario';
+        }
+
+        nav {
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:rgba(0,0,0,0.5);
+                height: 100px;
+                position: fixed;
+                width: 100%;
+
+
+        a {
+                text-decoration: none;
+                color: #F5F7F7;
+                font-size: 2rem;
+                margin: 0 13%;
+                transition: 1s;
+
+                        &:hover {
+                                font-size: 2.2rem;
+                        }
+        
+                }
+
+        }
+
+        .header {
+                background: url('../css/img/about-bg.jpeg') no-repeat center center;
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .header-content {
+                        display: flex;
+                        flex-direction: column;
+                        
+                        h1 {
+                                color: white;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 70px;
+                                line-height: 85px;
+                                text-align: center;
+                        }
+
+                        p {
+                                color: white;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 25px;
+                                line-height: 30px;
+                                text-align: center;
+                        }
+                        
+                }
+        }
+
+        .content {
+                width: 100%;
+                padding: 4% 0;
+                display: flex;
+                justify-content: center;
+                
+                p {
+                        width: 70%;
+                        text-align: center;
+                        font-weight: normal;
+                        font-size: 26px;
+                        line-height: 45px;
+                        letter-spacing: 0.08em;
+                        color: #000000;
+                }
+        }
 }
