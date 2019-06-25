@@ -1,0 +1,192 @@
+.about {
+        
+        * {
+                font-family: 'Rosario';
+        }
+
+        nav {
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:rgba(0,0,0,0.5);
+                height: 100px;
+                position: fixed;
+                width: 100%;
+
+
+        a {
+                text-decoration: none;
+                color: #F5F7F7;
+                font-size: 2rem;
+                margin: 0 13%;
+                transition: 1s;
+
+                        &:hover {
+                                font-size: 2.2rem;
+                        }
+        
+                }
+
+                @media(max-width: 500px) {
+                        position: fixed;
+                        height: 50px;
+                        width: 100vw;
+                        flex-direction: row;
+        
+                        a {
+                                margin: 0 0;
+                                font-size: 1rem;
+                                padding: 0 10%;
+                        }
+        
+                        a img {
+                                display: none;
+                        }
+                }
+
+        }
+
+        .header {
+                background: url('../css/img/about-bg.jpeg') no-repeat center center;
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .header-content {
+                        display: flex;
+                        flex-direction: column;
+                        
+                        h1 {
+                                color: white;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 70px;
+                                line-height: 85px;
+                                text-align: center;
+                        }
+
+                        p {
+                                color: white;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 25px;
+                                line-height: 30px;
+                                text-align: center;
+                        }
+                        
+                }
+        }
+
+        .content {
+                width: 100%;
+                padding: 4% 0;
+                display: flex;
+                justify-content: center;
+                
+                p {
+                        width: 70%;
+                        text-align: center;
+                        font-weight: normal;
+                        font-size: 26px;
+                        line-height: 45px;
+                        letter-spacing: 0.08em;
+                        color: #000000;
+
+                        @media(max-width: 500px) {
+                                font-size: 15px;
+                                line-height: 30px;
+                                width: 90%;
+                        }
+                }
+        }
+
+        .bottom-content {
+                // border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                margin: 5% 0;
+
+                h1 {
+                        font-size: 2rem;
+                }
+
+                .carousel {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        align-items: center;
+
+                        div {
+                                padding: 2% 5%;
+                        }
+
+                        .button {
+                                font-size: 2rem;
+                                font-weight: 1000;
+
+                                @media(max-width: 500px) {
+                                        transform: rotate(90deg)
+                                }
+                        }
+
+                        .item {
+                                width: 40%;
+                                text-align: center;
+
+                                @media(max-width: 500px) {
+                                        width: 100%;
+                                }
+
+                                img {
+                                        border-radius: 50%;
+                                        width: 250px;
+                                        height: 250px;
+
+                                        @media(max-width: 500px) {
+                                                width: 100px;
+                                                height: 100px;
+                                        }
+                                }
+
+                                .info {
+                                        display: flex;
+                                        flex-direction: column;
+                                        width: 100%;
+
+                                        h1 {
+                                                font-size: 2rem;
+                                                @media(max-width: 500px) {
+                                                        font-size: 1.5rem;
+                                                }
+                                        }
+
+                                        h2 {
+                                                font-size: 1.5rem;
+                                                @media(max-width: 500px) {
+                                                        font-size: 1.25rem;
+                                                }
+                                        }
+
+                                        h3 {
+                                                font-size: 1rem;
+
+                                                a {
+                                                        text-decoration: none;
+                                                        color: black;
+                                                }
+                                        }
+                                }
+                        }
+
+                        @media(max-width: 500px){
+                                flex-direction: column;
+                                text-align: center;
+                        }
+                }
+        }
+}
