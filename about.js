@@ -1,14 +1,10 @@
 class Carousel{
     constructor(carouselElement) {
         this.carouselElement = this.carouselElement;
-        console.log('carousel', carouselElement)
         this.leftButton = carousel.querySelector('.left-button')
         this.rightButton = carousel.querySelector('.right-button')
-        console.log('leftButton', this.leftButton);
-        console.log('rightButton', this.rightButton);
 
         this.itemList = Array.from(carousel.querySelectorAll('.item'));
-        console.log(this.itemList);
 
         this.currentIndex = 0;
         this.itemList.forEach(item => item.style.display = 'none')
