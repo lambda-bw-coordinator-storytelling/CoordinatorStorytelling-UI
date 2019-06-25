@@ -184,16 +184,52 @@ table {
 .home .header .cta button:focus {
   outline: none;
 }
+.home .top-content {
+  display: flex;
+  padding: 3% 15%;
+  border-bottom: 2px #E26512 solid;
+}
+.home .top-content .top-content-title {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+.home .top-content .top-content-text {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.home .top-content .top-content-text p {
+  padding-bottom: 3%;
+}
+.home .top-content .top-content-text button {
+  margin: 0 auto;
+  padding: 1% 2%;
+  border: 1px transparent solid;
+  transition: 1s;
+  border-radius: 8px;
+  color: #F5F7F7;
+  background: #E26512;
+}
+.home .top-content .top-content-text button:hover {
+  background: transparent;
+  color: #E26512;
+  border: 1px #E26512 solid;
+  border-radius: 8px;
+}
+.home .top-content .top-content-text button:focus {
+  outline: none;
+}
 .home h1 {
   text-align: center;
   font-size: 3rem;
   padding-top: 5%;
 }
-.home .content {
+.home .bottom-content {
   display: flex;
   font-size: 1.4rem;
 }
-.home .content .sub-content {
+.home .bottom-content .bottom-sub-content {
   width: 50%;
   margin: 3% 15%;
   padding: 3%;
@@ -203,13 +239,13 @@ table {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-.home .content .sub-content h2 {
+.home .bottom-content .bottom-sub-content h2 {
   font-weight: bold;
 }
-.home .content .sub-content p {
+.home .bottom-content .bottom-sub-content p {
   padding: 3% 5%;
 }
-.home .content .sub-content button {
+.home .bottom-content .bottom-sub-content button {
   margin: 0 auto;
   padding: 2% 5%;
   border: 1px transparent solid;
@@ -218,13 +254,13 @@ table {
   color: #F5F7F7;
   background: #2A9BF0;
 }
-.home .content .sub-content button:hover {
+.home .bottom-content .bottom-sub-content button:hover {
   background: transparent;
   color: #2A9BF0;
   border: 1px #2A9BF0 solid;
   border-radius: 8px;
 }
-.home .content .sub-content button:focus {
+.home .bottom-content .bottom-sub-content button:focus {
   outline: none;
 }
 .about {
