@@ -415,18 +415,32 @@ table {
   }
 }
 .about .bottom-content {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
   margin: 5% 0;
+}
+.about .bottom-content h1 {
+  font-size: 2rem;
 }
 .about .bottom-content .carousel {
   display: flex;
   justify-content: center;
   width: 100%;
+  align-items: center;
 }
 .about .bottom-content .carousel div {
   padding: 2% 5%;
+}
+.about .bottom-content .carousel .button {
+  font-size: 2rem;
+  font-weight: 1000;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel .button {
+    transform: rotate(90deg);
+  }
 }
 .about .bottom-content .carousel .item {
   width: 40%;

@@ -104,18 +104,34 @@
         }
 
         .bottom-content {
-                border: 1px solid black;
+                // border: 1px solid black;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
+                text-align: center;
                 margin: 5% 0;
+
+                h1 {
+                        font-size: 2rem;
+                }
 
                 .carousel {
                         display: flex;
                         justify-content: center;
                         width: 100%;
+                        align-items: center;
 
                         div {
                                 padding: 2% 5%;
+                        }
+
+                        .button {
+                                font-size: 2rem;
+                                font-weight: 1000;
+
+                                @media(max-width: 500px) {
+                                        transform: rotate(90deg)
+                                }
                         }
 
                         .item {
