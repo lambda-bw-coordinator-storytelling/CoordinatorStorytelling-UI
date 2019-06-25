@@ -346,6 +346,22 @@ table {
 .about nav a:hover {
   font-size: 2.2rem;
 }
+@media (max-width: 500px) {
+  .about nav {
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    flex-direction: row;
+  }
+  .about nav a {
+    margin: 0 0;
+    font-size: 1rem;
+    padding: 0 10%;
+  }
+  .about nav a img {
+    display: none;
+  }
+}
 .about .header {
   background: url('../css/img/about-bg.jpeg') no-repeat center center;
   background-size: cover;
@@ -389,6 +405,13 @@ table {
   letter-spacing: 0.08em;
   color: #000000;
 }
+@media (max-width: 500px) {
+  .about .content p {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+  }
+}
 .about .bottom-content {
   border: 1px solid black;
   display: flex;
@@ -406,4 +429,54 @@ table {
 .about .bottom-content .carousel .item {
   width: 40%;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel .item {
+    width: 100%;
+  }
+}
+.about .bottom-content .carousel .item img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel .item img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.about .bottom-content .carousel .item .info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.about .bottom-content .carousel .item .info h1 {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel .item .info h1 {
+    font-size: 1.5rem;
+  }
+}
+.about .bottom-content .carousel .item .info h2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel .item .info h2 {
+    font-size: 1.25rem;
+  }
+}
+.about .bottom-content .carousel .item .info h3 {
+  font-size: 1rem;
+}
+.about .bottom-content .carousel .item .info h3 a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .about .bottom-content .carousel {
+    flex-direction: column;
+    text-align: center;
+  }
 }
