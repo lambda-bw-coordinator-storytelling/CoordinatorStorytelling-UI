@@ -130,7 +130,6 @@ table {
   font-family: 'Rosario';
 }
 .home nav {
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,6 +137,7 @@ table {
   height: 100px;
   position: fixed;
   width: 100%;
+  letter-spacing: 0.08rem;
 }
 .home nav a {
   text-decoration: none;
@@ -182,6 +182,7 @@ table {
   padding-bottom: 5%;
   color: white;
   font-size: 5rem;
+  letter-spacing: 0.08rem;
 }
 @media (max-width: 500px) {
   .home .header .cta h1 {
@@ -197,6 +198,7 @@ table {
   background: #2A9BF0;
   text-decoration: none;
   color: black;
+  letter-spacing: 0.08rem;
 }
 .home .header .cta .button:hover {
   background: transparent;
@@ -216,22 +218,31 @@ table {
   display: flex;
   padding: 3% 15%;
   border-bottom: 2px #E26512 solid;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .home .top-content {
+    padding: 3% 5%;
+  }
 }
 .home .top-content .top-content-title {
   width: 100%;
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 2%;
 }
 @media (max-width: 500px) {
   .home .top-content .top-content-title {
-    font-size: 1.6rem;
-    padding-bottom: 2%;
+    font-size: 1.85rem;
   }
 }
 .home .top-content .top-content-text {
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
+  line-height: 45px;
+  letter-spacing: 0.08rem;
+  text-align: center;
 }
 .home .top-content .top-content-text p {
   padding-bottom: 3%;
@@ -261,25 +272,29 @@ table {
 .home .top-content .top-content-text .button:focus {
   outline: none;
 }
-@media (max-width: 500px) {
-  .home .top-content {
-    flex-direction: column;
-  }
-}
 .home h1 {
   text-align: center;
   font-size: 3rem;
   padding: 1% 0;
+  letter-spacing: 0.08rem;
+}
+@media (max-width: 500px) {
+  .home h1 {
+    font-size: 1.75rem;
+    padding: 3% 0;
+  }
 }
 .home .bottom-content {
   display: flex;
   font-size: 1.4rem;
+  line-height: 45px;
+  letter-spacing: 0.08rem;
   background: url(/css/img/clouds.jpg) no-repeat center center;
   background-size: cover;
 }
 .home .bottom-content .bottom-sub-content {
-  width: 50%;
-  margin: 3% 15%;
+  width: 100%;
+  margin: 3% 5%;
   padding: 3%;
   display: flex;
   flex-direction: column;
@@ -297,7 +312,7 @@ table {
   font-weight: bold;
 }
 .home .bottom-content .bottom-sub-content p {
-  padding: 3% 5%;
+  padding: 3% 0;
 }
 .home .bottom-content .bottom-sub-content .button {
   margin: 0 auto;
