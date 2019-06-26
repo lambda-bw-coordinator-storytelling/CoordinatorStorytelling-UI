@@ -147,9 +147,6 @@ table {
   margin: 0 13%;
   transition: 1s;
 }
-.home nav a:hover {
-  font-size: 2.2rem;
-}
 @media (max-width: 500px) {
   .home nav {
     position: fixed;
@@ -159,7 +156,7 @@ table {
   }
   .home nav a {
     margin: 0 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 10%;
   }
   .home nav a img {
@@ -276,13 +273,13 @@ table {
 .home h1 {
   text-align: center;
   font-size: 3rem;
-  padding: 1% 0;
+  padding: 4% 0;
   letter-spacing: 0.08rem;
 }
 @media (max-width: 500px) {
   .home h1 {
     font-size: 1.75rem;
-    padding: 3% 0;
+    padding: 10% 0;
   }
 }
 .home .bottom-content {
@@ -324,6 +321,15 @@ table {
   color: #F5F7F7;
   background: #2A9BF0;
   text-decoration: none;
+  margin-top: auto;
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .home .bottom-content .bottom-sub-content .button {
+    width: 90%;
+    margin: 0 0;
+    font-size: 1rem;
+  }
 }
 .home .bottom-content .bottom-sub-content .button:hover {
   background: transparent;
@@ -367,9 +373,6 @@ table {
   margin: 0 13%;
   transition: 1s;
 }
-.about nav a:hover {
-  font-size: 2.2rem;
-}
 @media (max-width: 500px) {
   .about nav {
     position: fixed;
@@ -379,11 +382,8 @@ table {
   }
   .about nav a {
     margin: 0 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 10%;
-  }
-  .about nav a:hover {
-    font-size: 1.2rem;
   }
   .about nav a img {
     display: none;
