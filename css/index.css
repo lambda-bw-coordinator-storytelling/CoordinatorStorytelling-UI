@@ -131,7 +131,6 @@ table {
 }
 .home nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   height: 100px;
@@ -144,8 +143,10 @@ table {
   text-decoration: none;
   color: #F5F7F7;
   font-size: 2rem;
-  margin: 0 13%;
+  margin: 0 2rem;
+  width: 30%;
   transition: 1s;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .home nav {
@@ -362,9 +363,7 @@ table {
   font-family: 'Rosario';
 }
 .about nav {
-  height: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   height: 100px;
@@ -377,8 +376,10 @@ table {
   text-decoration: none;
   color: #F5F7F7;
   font-size: 2rem;
-  margin: 0 13%;
+  margin: 0 2rem;
+  width: 30%;
   transition: 1s;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .about nav {
